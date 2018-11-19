@@ -1,0 +1,17 @@
+{
+  "name": "krish-jest",
+  "version": "0.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec node server.js",
+    "test": "nodemon --exec node server.test.js"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "nodemon": "^1.18.6"
+  }
+}
